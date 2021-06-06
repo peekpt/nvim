@@ -15,6 +15,7 @@ return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
   use 'nvim-lua/plenary.nvim'
   use 'akinsho/flutter-tools.nvim'
- 
-
+  use 'dart-lang/dart-vim-plugin' 
+  use 'hrsh7th/nvim-compe'
+  use 'neovim/nvim-lspconfig'
 end)
