@@ -18,4 +18,8 @@ return require('packer').startup(function()
   use 'dart-lang/dart-vim-plugin' 
   use 'hrsh7th/nvim-compe'
   use 'neovim/nvim-lspconfig'
+	use {
+  'hoob3rt/lualine.nvim',
+  requires = {'kyazdani42/nvim-web-devicons', opt = true}
+}
 end)
